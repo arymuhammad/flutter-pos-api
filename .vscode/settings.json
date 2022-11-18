@@ -1,0 +1,67 @@
+{
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.openDevTools": "flutter",
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "dart.warnWhenEditingFilesInPubCache": false,
+    "editor.wordWrap": "on",
+    "[php]": {
+        "editor.defaultFormatter": "Sophisticode.php-formatter"
+    },
+    "dart.flutterHotReloadOnSave": "all",
+    "dart.hotReloadOnSave": "all",
+    "dart.flutterRunAdditionalArgs": [
+        "--no-sound-null-safety"
+    ],
+    "dart.flutterHotRestartOnSave": false,
+    "dart.previewHotReloadOnSaveWatcher": true,
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "editor.codeActionsOnSave": {},
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.indentation": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.autoClosingBrackets": "always",
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "dartImport.fixOnSave": true,
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#fac928",
+            "editorBracketHighlight.foreground2": "#c122e9",
+            "editorBracketHighlight.foreground3": "#057aff",
+            "editorBracketHighlight.foreground4": "#00e74d",
+            "editorBracketHighlight.foreground5": "#f51384",
+            "editorBracketHighlight.foreground6": "#19f9d8",
+            "editorBracketPairGuide.background1": "#fac9289E",
+            "editorBracketPairGuide.background2": "#c122e99E",
+            "editorBracketPairGuide.background3": "#057aff9E",
+            "editorBracketPairGuide.background4": "#00e74d9E",
+            "editorBracketPairGuide.background5": "#f513849E",
+            "editorBracketPairGuide.background6": "#19f9d89E",
+            "editorBracketPairGuide.activeBackground1": "#FAC9289E",
+            "editorBracketPairGuide.activeBackground2": "#C122E99E",
+            "editorBracketPairGuide.activeBackground3": "#057AFF9E",
+            "editorBracketPairGuide.activeBackground4": "#00E7499E",
+            "editorBracketPairGuide.activeBackground5": "#F513849E",
+            "editorBracketPairGuide.activeBackground6": "#19F9D89E"
+    },
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+}

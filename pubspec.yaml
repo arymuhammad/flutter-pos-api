@@ -1,0 +1,110 @@
+name: my_first_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.16.1 <3.0.0'
+
+dependencies:
+  appspector: ^0.9.0
+  barcode_widget: ^2.0.0-nullsafety
+  bluetooth_print: ^3.0.1
+  collection: ^1.16.0
+  cupertino_icons: ^1.0.2
+  datetime_picker_formfield: ^2.0.0
+  easy_sidemenu: ^0.3.1
+  esc_pos_printer: ^4.1.0
+  fdottedline_nullsafety: ^2.0.1
+  flutter:
+    sdk: flutter
+  flutter_barcode_scanner: ^2.0.0
+  flutter_speed_dial: ^6.0.0
+  fluttertoast: ^8.0.9
+  get: 4.6.5
+  getxbottombar: ^0.0.1
+  http: ^0.13.4
+  internet_connection_checker: ^0.0.1+4
+  intl: ^0.17.0
+  masked_text_field: ^1.0.1
+  path_provider: ^2.0.11
+  permission_handler: ^10.0.0
+  ping_discover_network_forked: ^0.0.1
+  qr_flutter: ^4.0.0
+  splash_screen_view: ^3.0.0
+  sqflite: ^2.0.3+1
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  msix: ^3.6.3
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Acme
+      fonts:
+        - asset: asset/font/Acme-Regular.ttf
+
+    - family: Raleway
+      fonts:
+        - asset: asset/font/static/Raleway-Black.ttf
+        - asset: asset/font/static/Raleway-BlackItalic.ttf
+        - asset: asset/font/static/Raleway-Bold.ttf
+        - asset: asset/font/static/Raleway-BoldItalic.ttf
+        - asset: asset/font/static/Raleway-ExtraBold.ttf
+        - asset: asset/font/static/Raleway-ExtraBoldItalic.ttf
+        - asset: asset/font/static/Raleway-ExtraLight.ttf
+        - asset: asset/font/static/Raleway-ExtraLightItalic.ttf
+        - asset: asset/font/static/Raleway-Medium.ttf
+        - asset: asset/font/static/Raleway-Light.ttf
+        - asset: asset/font/static/Raleway-Regular.ttf
+        - asset: asset/font/static/Raleway-Thin.ttf
+
+    - family: Nunito
+      fonts:
+        - asset: asset/font/nunito/Nunito-Black.ttf
+        - asset: asset/font/nunito/Nunito-BlackItalic.ttf
+        - asset: asset/font/nunito/Nunito-Bold.ttf
+        - asset: asset/font/nunito/Nunito-BoldItalic.ttf
+        - asset: asset/font/nunito/Nunito-ExtraBold.ttf
+        - asset: asset/font/nunito/Nunito-ExtraBoldItalic.ttf
+        - asset: asset/font/nunito/Nunito-ExtraLight.ttf
+        - asset: asset/font/nunito/Nunito-ExtraLightItalic.ttf
+        - asset: asset/font/nunito/Nunito-Light.ttf
+        - asset: asset/font/nunito/Nunito-Regular.ttf
+
+  assets:
+    - lib/app/data/no_internet.json
+    - asset/
+
+msix_config:
+  display_name: POS App
+  publisher_display_name: Muhammad Ary
+  identity_name: company.suite.flutterapp
+  msix_version: 1.0.0.0
+  logo_path: E:\apps\my_first_app\asset\logo_app.png
+  capabilities: internetClient, location, microphone, webcam
+
+splash_screen_view:
+  # Use color to set the background of your splash screen to a solid color.
+  # Use background_image to set the background of your splash screen to a png image.
+  # This is useful for gradients. The image will be stretch to the  size of the app.
+  # Only one parameter can be used, color and background_image cannot both be set.
+  color: "#ffffff"
+  #background_image: "assets/splashscreen_image.png"
+  # Optional parameters are listed below.
+  #image: assets/splashscreen_image.png
+  #color_dark: "#042a49"
+  #background_image_dark: "assets/dark-background.png"
+  #image_dark: assets/splash-invert.png
+  #android: false
+  #ios: false
+  #web: false
+  #android_gravity: center
+  #ios_content_mode: center
+  #web_image_mode: center
+  #fullscreen: true
+  #info_plist_files:
+  #  - 'ios/Runner/Info-Debug.plist'
+  #  - 'ios/Runner/Info-Release.plist'
